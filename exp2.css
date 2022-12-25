@@ -1,0 +1,52 @@
+*{
+box-sizing: border-box;
+    margin: 0px;
+}
+.container{display: grid;
+    align-items: center;
+    justify-content: center;
+color: red;
+font-size: 50px;
+margin: auto;
+height: 90vh;
+}
+body{
+    border: 20px rgb(85, 0, 0) solid;
+height: 100vh;
+background: url(img/Screenshot\ 2022-12-25\ at\ 10.16.39\ PM.png);
+background-size: 300%;
+/* background-position:60px 150px; */
+/* background-position:-2000px 0px; */
+/* background-position:-2000px -1000px; */
+/* background-position:60px -1000px; */
+animation: bg 4s infinite ;
+}
+
+@keyframes bg {
+    0%{
+        background-position:60px 100px;
+
+
+    }
+    25%{
+        background-position:-1500px 100px;
+
+    }
+
+    50%{
+        background-position:-1500px -700px;
+    }
+        75%{
+
+            background-position:60px -700px;
+        }
+
+    100%{
+
+            background-position:60px 100px;
+    
+    
+        
+
+    }
+}
